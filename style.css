@@ -1,0 +1,108 @@
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-image:url("./imagens/lol.jpg") ;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color:  #ab0fe9;
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.container h1{
+   text-align: center;
+   color: #16e90f;
+   text-shadow: 3px 2px 2px #000;
+   padding: 40px;
+}
+
+ h2 {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px 20px 0px 0px;
+   
+}
+
+.cadastro {
+    background-color: rgba(0, 0, 0, 0.767);
+    padding:50px;
+    
+}
+.tema {
+    border-left:solid 1px dimgrey;
+    border-right:solid 1px dimgrey;
+    margin-bottom: 20px;
+    padding: 30px 30px;
+    border-bottom:solid 3px dimgrey;
+    color:#ccc;  
+}
+
+.teste {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+
+}
+.tema label {
+    width: 200px;
+    margin-right: 100px;
+    color:  #ab0fe9;
+}
+
+input {
+    width: 400px;
+    border: 1px solid #212121;
+    font-size:15px;
+    padding:10px;
+    border-radius: 3px;
+   
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   padding: 20px 200px;
+    background-color: #000;
+    color:  #04c4ff;  
+}
+
+.tema select  {
+    padding: 8px 60px;
+    margin-right: 55px;
+    
+}
+.msg{
+    padding: 10px  10px;
+    text-align: center;
+    color: #ccc;
+   
+}
+
+.msg input {
+    width: 150px;
+    height: 50px;
+    color: #000;
+    background-color: darkgreen;
+    
+}
+
+textarea {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    resize: none;
+    justify-content: space-around;
+     width: 600px;
+     height: 200px;
+     margin-right: 20px;
+ } 
+@media 
